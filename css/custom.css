@@ -441,6 +441,35 @@ body {
     border-radius: 10;
     
 }
+/* Small devices (landscape phones, 576px and lower) */
+@media (max-width: 576px) { 
+    .started .get .ready h1{
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 1.5rem;
+    }
+    .started .get .ready p{
+        font-size: 1.25rem;
+        font-weight: 300;
+        margin-bottom: 3rem;
+    }
+    .started .get .ready a{
+        background-color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 0.75rem 2rem;
+        border-radius: 10;
+        
+    }
+    .started .get .ready a:hover{
+        background-color: rgb(156, 73, 211);
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 0.75rem 2rem;
+        border-radius: 10;
+        
+    }
+}
 /*Get Stared ends here*/
 /*Footer starts here*/
 .footer{
